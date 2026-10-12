@@ -1,0 +1,31 @@
+PAPER CITATION CLASSIFICATION
+Per-Class Evaluation Report
+
+Test samples: 18,000
+Classes: Low, Medium, High
+
+1. NAIVE BAYES
+Class       Precision    Recall    F1-score
+Low           38.6%      40.7%      39.6%
+Medium        35.5%      20.5%      26.0%
+High          41.5%      57.4%      48.2%
+
+2. RANDOM FOREST
+Class       Precision    Recall    F1-score
+Low           39.1%      28.6%      33.0%
+Medium        36.3%      43.7%      39.6%
+High          44.1%      46.1%      45.1%
+
+3. NEURAL NETWORK
+Class       Precision    Recall    F1-score
+Low           38.8%      50.3%      43.8%
+Medium        36.4%      18.8%      24.8%
+High          44.5%      54.1%      48.8%
+
+Interpretation:
+- Neural Network has the highest overall accuracy (40.70%).
+- Random Forest has the highest weighted F1-score (39.36%).
+- Medium is difficult to identify for Naive Bayes and Neural Network.
+- Random Forest achieves the highest recall for Medium (43.7%).
+
+Note: Per-class metrics are derived from the project's confusion matrices.

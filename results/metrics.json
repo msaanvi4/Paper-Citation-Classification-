@@ -1,0 +1,23 @@
+{
+  "test_samples": 18000,
+  "models": {
+    "Naive Bayes": {
+      "accuracy": 0.3936,
+      "weighted_precision": 0.3853,
+      "weighted_recall": 0.3936,
+      "weighted_f1": 0.3781
+    },
+    "Random Forest": {
+      "accuracy": 0.3968,
+      "weighted_precision": 0.3980,
+      "weighted_recall": 0.3968,
+      "weighted_f1": 0.3936
+    },
+    "Neural Network": {
+      "accuracy": 0.4070,
+      "weighted_precision": 0.3989,
+      "weighted_recall": 0.4070,
+      "weighted_f1": 0.3893
+    }
+  }
+}
